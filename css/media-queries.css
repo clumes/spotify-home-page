@@ -1,0 +1,97 @@
+/* These styles will be applied to screens that have a width of at least 768px */
+@media screen and (min-width: 768px) {
+  /* HERO */
+  .hero-container {
+    padding-top: 0;
+    min-height: 64rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(
+      ellipse at center,
+      #fbcb6c 0%,
+      #f3c65d 0%,
+      #f2ae54 100%
+    );
+  }
+
+  .hero-title {
+    font-size: 6.5rem;
+    line-height: 8rem;
+    letter-spacing: -0.4rem;
+  }
+
+  .hero-button {
+    margin-bottom: 0;
+  }
+
+  .terms {
+    position: absolute;
+    bottom: 1.2rem;
+  }
+}
+
+/* These styles will be applied to screens that have a width of at least 992px */
+@media screen and (min-width: 992px) {
+  /* HEADER */
+  header {
+    background: rgba(0, 0, 0, 0.6);
+    height: 8rem;
+  }
+
+  .header-container {
+    max-width: 97rem;
+  }
+
+  .header-logo img {
+    width: 13rem;
+  }
+
+  .nav-desktop {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+
+  /* Circle around the profile icon */
+  .profile {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  /* Profile icon */
+  .profile svg {
+    width: 2rem;
+  }
+
+  /* HERO */
+  .hero-title {
+    font-size: 8rem;
+    margin-bottom: 0;
+  }
+
+  .hero-content {
+    width: 70%;
+  }
+
+  .hero-button {
+    position: relative;
+    top: 6rem;
+  }
+}
+
+/* These styles will be applied to screens that have a width of at least 1200px */
+@media screen and (min-width: 1200px) {
+  /* HEADER */
+  .header-container {
+    max-width: 117rem;
+  }
+
+  /* HERO */
+  .hero-button {
+    top: 5rem;
+  }
+}
